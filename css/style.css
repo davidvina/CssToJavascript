@@ -1,0 +1,8 @@
+body {
+  background-color: blue; }
+
+html:after {
+  content: '{"padding":"10px", "grid":12}'; }
+
+h1 {
+  color: red; }

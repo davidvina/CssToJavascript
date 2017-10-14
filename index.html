@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS to Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<script>
+
+
+var senseGridData = window.getComputedStyle(
+    document.querySelector('html'), ':after')    // selector
+    .getPropertyValue('content')                 // nombre propiedad Css
+    .replace(/\\/g, '');                         // clean string
+
+//senseGridData = senseGridData.replace(/\\/g, '');
+
+console.log(senseGridData);
+
+</script>
+</body>
+</html>
