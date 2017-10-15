@@ -1,0 +1,22 @@
+//variables
+$showGrid: true;
+$padding: 10px;
+$grid: 12;
+$containerWidth: 978px;
+$breackpoint: 978px;
+
+$colorGrid: blue;
+
+
+body{
+    background-color: #fff;
+}
+
+html:after{
+    content: '{"padding":"'+$padding+'","grid":'+$grid+',"containerWidth":"'+$containerWidth+'"}';
+    display: none;
+}
+
+#grid_guide{
+   background-color: $colorGrid;
+}

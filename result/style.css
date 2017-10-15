@@ -1,0 +1,17 @@
+body {
+  background-color: red; }
+
+html:after {
+  content: '{"padding":"10px", "grid":12}'; }
+
+h1 {
+  color: red; }
+
+section div div.hola {
+  color: #fff; }
+
+
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6IkFBQUEsSUFBSTtFQUNBLGdCQUFnQixFQUFFLEdBQUc7O0FBR3pCLFVBQVU7RUFDTixPQUFPLEVBQUUsK0JBQStCOztBQUc1QyxFQUFFO0VBQ0UsS0FBSyxFQUFFLEdBQUc7O0FBS04sb0JBQVE7RUFDSixLQUFLLEVBQUMsSUFBSSIsInNvdXJjZXMiOlsic3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDtcbn1cblxuaHRtbDphZnRlcntcbiAgICBjb250ZW50OiAne1wicGFkZGluZ1wiOlwiMTBweFwiLCBcImdyaWRcIjoxMn0nO1xufVxuXG5oMXtcbiAgICBjb2xvcjogcmVkO1xufVxuXG5zZWN0aW9ue1xuICAgIGRpdntcbiAgICAgICAgZGl2LmhvbGF7XG4gICAgICAgICAgICBjb2xvcjojZmZmO1xuICAgICAgICB9XG4gICAgfVxufVxuIl19 */
+
+/*# sourceMappingURL=maps/style.css.map */
